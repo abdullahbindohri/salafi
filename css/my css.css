@@ -1,0 +1,164 @@
+body {
+
+    margin: 0;
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(13, 114, 114);
+    width: 100%;
+    height: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    float: left;
+    padding: 5px 5px 5px 00px;
+    margin: 37px 0 0 0px;
+    /* background-color: white; */
+    font-size: 40px;
+    /* border: 1px white solid; */
+    border-radius: 0 50px 50px 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+    /* background-color: rgb(9, 73, 82); */
+    background-color: rgb(255, 255, 255);
+    padding: 0px 25px;
+    /* border: 2px rgb(13, 114, 114) solid; */
+    border: 5px rgb(9, 73, 82) solid;
+    border-radius: 21px;
+
+}
+
+nav ul li a {
+    color: rgb(13, 114, 114);
+    list-style: none;
+    text-decoration: none;
+
+}
+
+/* 
+#logo a {
+    color: rgb(13, 114, 114);
+    float: right;
+    margin: 40px 0px 0 0;
+    font-size: 45px;
+    font-family: tahoma;
+    text-decoration: none;
+    background-color: white;
+    padding: 0px 0px 5px 5px;
+    border: 5px white solid;
+    border-radius: 50px 0 0px 50px;
+} */
+
+/* #logo a {
+    margin: 26px 0 0 0;
+    float: right;
+    
+} */
+
+#logo a {
+    margin: 26px 0 0 0;
+    float: right;
+    width: 310px;
+    height: 87px;
+    background-image: url(../images/5.png);
+}
+
+
+#h1 {
+    margin: 0;
+    padding: 0;
+    size: 1cm;
+    color: black;
+    margin-top: -20px;
+    border: 4px black solid;
+}
+
+#h2 {
+    margin: 0;
+    padding: 0;
+    size: 1cm;
+    color: black;
+    margin-top: 0px;
+    border: 4px black solid;
+}
+
+/* قسم جمع المحتوى والاعلانات */
+#content {
+
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
+/* التذييل */
+footer {
+    background-color: rgb(13, 114, 114);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+
+}
+
+footer a {
+
+
+    text-decoration: none;
+    color: rgb(13 114 114);
+    border: 7px solid #094952;
+    border-radius: 21px;
+    background-color: white;
+    padding: 0 5px;
+}
+
+h1 {
+
+    margin: 0px;
+}
+
+/* قسم الاعلانات */
+#ads {
+    display: inline-block;
+    float: right;
+    display: inline-block;
+    margin: 15px;
+    width: 27%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 50px;
+    border: 2px #000 solid;
+    height: 100%;
+    text-align: right;
+}
+
+/* قسم المحتوى */
+#con {
+    display: inline-block;
+    margin: 15px;
+    width: 65%;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 50px;
+    border: 2px #000 solid;
+}
+
+/* frame login */
+#src {
+    height: 1200px;
+    width: 1180px;
+    margin-left: 28px;
+
+
+
+}
